@@ -1,38 +1,171 @@
-.App {
+.full{
+  background-image: url("C:\Users\prvbs .Rakesh\OneDrive\Documents\GitHub\my\img\1.jpeg");
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.app {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-transform: capitalize;
+
+}
+
+.calendar-container {
+  
+  width: auto;
+  margin: auto;
+  padding: 2rem;
+  background-color: #0f1525;
+  border-radius: 10px;
+  box-shadow: 0px 3px 7px rgba(182, 2, 2, 0.1);
+
+}
+
+.habits-container {
+  
+  width: auto;
+  text-align: center;
+  font-size: 1.5em;
+  
+  color: #360394;
+  margin: auto;
+  padding: 2rem;
+  
+  
+}
+
+.sucess {
+
+  display: inline-block;
+  color: #4b0505;
+  list-style-type: armenian;
+  width: 800px;
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  
+
+  ;
+
+}
+
+li {
+  background-color: #558b8d;
+  border-radius: 20px;
+  color: #201e00;
+  margin-bottom: 10px;
+  
+  
+}
+
+input[type="checkbox"] {
+
+  background-color: aquamarine;
+  color: rgb(143, 12, 12);
+  margin: 10px;
+  padding: 5px;
+}
+
+.add-habit-container {
+
+  border: solid rgb(112, 2, 116) 2px;
+  text-align: center;
+  margin-top: 10px;
+  justify-content: center;
+  border-radius: 2vh;
+}
+.add-habit-container:hover {
+
+  border: solid rgb(139, 5, 5) 2px;
+  text-align: center;
+  margin-top: 20px;
+  justify-content: center;
+  border-radius: 2vh;
+}
+.list-name{
+  font-size: 30px;
+  text-align: center;
+ 
+
+}
+.head{
+  background-color: #80400c;
+  color: #020d2c;
+  height: 90px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.list{
+  
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 0%;
+  background-color:#6e0d09;
   text-align: center;
 }
+.place{
+  float: center;
+  margin-right: 40px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: rgb(248, 246, 246);
+  border: darkblue;
+  border-radius: 10px;
+}
+.but{
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.but:hover{
+  color: whitesmoke;
+  background-color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  size: 5vh;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.clock-container{
+  position: relative;
+  color: whitesmoke;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.re{
+  color: red;
 }
+.gre{
+  color: green;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.bla{
+  color: #805b00;
+}
+h2{
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.del{
+  border-radius: 20px;
+  color: blueviolet;
 }
